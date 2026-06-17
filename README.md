@@ -6,6 +6,7 @@ A simple and modern web application that generates creative team names instantly
 
 ## 🚀 Live Demo
 
+https://team-name-generator-coral.vercel.app/
 
 ---
 
