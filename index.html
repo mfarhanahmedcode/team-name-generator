@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Name Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>⚡ Team Name Generator</h1>
+      <p>Create awesome team names instantly.</p>
+
+      <select id="category">
+        <option>Gaming</option>
+        <option>Sports</option>
+        <option>Business</option>
+        <option>Esports</option>
+        <option>Fantasy</option>
+      </select>
+
+      <button onclick="generateName()">Generate Name</button>
+      <div id="result">Shadow Titans</div>
+      <button onclick="copyName()">Copy Name</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
